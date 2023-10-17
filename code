@@ -1,0 +1,24 @@
+marks1=int(input("Enter the marks1 : "));
+marks2=int(input("Enter the marks2 : "));
+marks3=int(input("Enter the marks3 : "));
+marks4=int(input("Enter the marks4 : "));
+marks5=int(input("Enter the marks5 : "));
+marks6=int(input("Enter the marks6 : "));
+sum=(marks1+marks2+marks3+marks4+marks5+marks6);
+marginmarks=40
+max_marks=600
+result=None;
+if(marks1>marginmarks and marks2>marginmarks and marks3>marginmarks and marks4>marginmarks and marks5>marginmarks and marks6>marginmarks):
+if(sum>550 and sum<600):
+result="congrats result is pass and grade is S"
+elif(sum>500 and sum<550):
+result="congrats result is pass and grade is A"
+elif(sum>450 and sum<500):
+result="congrats result is pass and grade is C"
+elif(sum>400 and sum<450):
+result="congrats result is pass and grade is D"
+elif(sum>350 and sum<400):
+result="congrats result is pass and grade is E"
+else:
+result="fail"
+print(result)
